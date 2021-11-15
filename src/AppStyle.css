@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    justify-items: center;
+    align-items: end;
+}
+.Container{
+    height: 700px;
+    width: 800px;
+    border: solid black 1px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    background-color: rgb(28, 50, 51);
+}
+.Column{
+    border: solid black 1px;
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 3px;
+}
+.box{
+    border-radius: 100px;
+    background-color: rgb(28, 50, 51);
+}
+.box1{
+    background-color: wheat;
+}
+.box2{
+    background-color: blueviolet;
+}
